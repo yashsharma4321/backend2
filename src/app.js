@@ -7,7 +7,7 @@ import cookieParser from "cookie-parser";
  
 import express from "express";
 const app = express();
-
+//cookkies is 2 way 
 app.use(cors({//middleware
     origin:process.env.CORS_ORIGIN,
     credentials:true
